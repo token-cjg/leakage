@@ -1,6 +1,6 @@
 {
-  "name": "leakage",
-  "version": "0.5.0",
+  "name": "@token-cjg/leakage",
+  "version": "0.6.0",
   "description": "Memory leak testing for node. Javascript memory footprinting using your favorite test runner.",
   "main": "lib/index",
   "scripts": {
@@ -12,8 +12,13 @@
     "Brandon Mills (https://github.com/btmills)"
   ],
   "license": "MIT",
-  "repository": "andywer/leakage",
-  "bugs": "https://github.com/andywer/leakage/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andywer/leakage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andywer/leakage/issues"
+  },
   "keywords": [
     "memory leak",
     "testing",
@@ -39,5 +44,11 @@
     "chai-as-promised": "^6.0.0",
     "mocha": "^10.0.0",
     "standard": "^17.0.0"
+  },
+  "homepage": "https://github.com/andywer/leakage#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
